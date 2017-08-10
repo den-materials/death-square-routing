@@ -14,7 +14,9 @@ import { LaserCannonComponent } from './laser-cannon/laser-cannon.component';
     LaserCannonComponent
   ],
   exports: [
-    DeathSquareComponent
+    DeathSquareComponent,
+    TurretComponent,
+    LaserCannonComponent
   ]
 })
 export class DeathSquareModule { }
